@@ -55,7 +55,7 @@ export const ArticleParamsForm = ({
 		return () => document.removeEventListener('mousedown', handleClickOutside);
 	}, [isOpen]);
 
-	// Функция для обновления конкретного поля формы
+	// Функция для обновления поля формы
 	const handleChange = (key: keyof ArticleStateType, value: OptionType) => {
 		setFormState((prev) => ({
 			...prev,
