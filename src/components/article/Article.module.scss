@@ -6,7 +6,9 @@
 	row-gap: 24px;
 	max-width: var(--container-width, auto);
 	margin: 0 auto;
-	padding: 72px 0 144px;
+	padding: 90px 0;
+
+	// padding: 72px 0 144px;
 }
 
 .titleDescription {
@@ -17,4 +19,16 @@
 	width: 100%;
 	height: auto;
 	margin-top: 26px;
+}
+
+// Класс для широкой картинки (1600px)
+
+.imageWide {
+	max-width: 1600px;
+}
+
+// Класс для узкой картинки (948px)
+
+.imageNarrow {
+	max-width: 948px;
 }
